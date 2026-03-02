@@ -1,8 +1,43 @@
-*{
-    margin: 0;
-    padding: 0;
+/* Applies to the entire body of the HTML document */
+body {
+  margin: 25px;
+  background-color: rgb(240, 240, 240); /* Sets a light gray background color */
+  font-family: arial, sans-serif;       /* Specifies the font */
+  font-size: 14px;                      /* Sets the default text size */
 }
 
-body { 
-    background: #f0ebe3; 
+/* Applies to all <h1> elements */
+h1 {
+  font-size: 35px;
+  font-weight: normal;
+  margin-top: 5px;
+  color: #00539f; /* Sets the text color using a HEX value */
+  text-shadow: 3px 3px 1px black; /* Adds a shadow effect to the text */
+}
+
+p {
+  border: 2px solid powderblue; /* A 2px solid border with a light blue color */
+  padding: 30px;                /* Space between the text and the border */
+  margin: 50px;                 /* Space outside the border */
+  border-radius: 10px;          /* Rounds the corners of the border */
+}
+
+button {
+  background-color: #4CAF50; /* Green background */
+  border: none;              /* Remove default border */
+  color: white;              /* White text */
+  padding: 15px 32px;        /* Some padding */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;           /* Change mouse cursor to a hand */
+  border-radius: 8px;        /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth transition for color change */
+}
+
+/* Style for the button when a user hovers over it */
+button:hover {
+  background-color: #45a049; /* Slightly darker green on hover */
 }
